@@ -88,3 +88,5 @@ The tool will print a JSON object to the console, similar to this:
   }
 }
 ```
+![img_2.png](img_2.png)
+![img_1.png](img_1.png)
