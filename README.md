@@ -62,31 +62,44 @@ Replace `/path/to/your/video.mp4` with the actual path to your video file. You c
 The tool will print a JSON object to the console, similar to this:
 
 ```json
+
+--- Analysis Complete ---
 {
-  "file_name": "Recording 2025-11-13 094737.mp4",
-  "duration_seconds": 7.566666666666666,
+  "file_name": "Recording 2025-11-13 010608.mp4",
+  "duration_seconds": 6.333333333333333,
   "fps": 30.0,
-  "resolution": "1000x650",
+  "resolution": "742x396",
   "shot_cut_detection": {
     "hard_cuts_found": 0,
-    "frames_analyzed": 226,
+    "frames_analyzed": 189,
     "correlation_threshold": 0.8
   },
   "motion_analysis": {
-    "average_motion_magnitude": 0.044
+    "average_motion_magnitude": 4.097
   },
   "text_analysis": {
-    "text_present_ratio": 0.0,
+    "text_present_ratio": 0.25,
     "total_frames_sampled": 4,
-    "frames_with_text": 0,
-    "top_keywords": []
+    "frames_with_text": 1,
+    "top_keywords": [
+      "divisibletint",
+      "int",
+      "return",
+      "untied"
+    ]
   },
   "object_person_dominance": {
-    "person_dominance_ratio": 0.5,
+    "person_dominance_ratio": 1.0,
+  },
+  "object_person_dominance": {
+    "person_dominance_ratio": 1.0,
     "total_persons_detected": 4,
-    "total_other_objects_detected": 4
+    "total_other_objects_detected": 0
   }
 }
+
 ```
-![img_2.png](img_2.png)
-![img_1.png](img_1.png)
+
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
